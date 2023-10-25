@@ -5,8 +5,6 @@ A flexible cleanup script to delete specific files or folders recursively based 
 ## Requirements:
 
 - **Operating System**: macOS or a Unix-like system.
-- **Shell**: Bash.
-- **Commands**: `find` (typically pre-installed on Unix-like systems).
 
 
 ## Usage:
