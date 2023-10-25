@@ -19,25 +19,25 @@ To use the script, navigate to the directory where you want to run the cleanup a
   3. Delete folders with the same name as a .zip file
 
   ```bash
-  cleanup.sh ./ --all
+  cleanup.sh ~/Downloads --all
   ```
 
 - **Delete Files with a given string in their name**:
   ```bash
-  cleanup.sh ./ --fileName=Screenshot 
+  cleanup.sh ~/Screenshots --fileName=Screenshot 
   ```
 
 - **Delete Folders with a given string in their name**:
   ```bash
-  cleanup.sh ./ --folderName=node_modules
+  cleanup.sh ~/git/my-project --folderName=node_modules
   ```
 
 - **Delete folders with the same name as a .zip file**:
   ```bash
-  cleanup.sh ./ --zip 
+  cleanup.sh ~/Downloads --zip 
   ```
 
 - **Delete files of a specific filetype (e.g., png)**:
   ```bash
-  cleanup.sh ./ --filetype=png
+  cleanup.sh ~/Downloads --filetype=png
   ```
