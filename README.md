@@ -7,7 +7,6 @@ A flexible cleanup script to delete specific files or folders recursively based 
 - **Operating System**: macOS or a Unix-like system.
 - **Shell**: Bash.
 - **Commands**: `find` (typically pre-installed on Unix-like systems).
-- File system support for a `.Trash` directory (for macOS). On other systems, you might need to adjust the script's `move_to_trash` function.
 
 
 ## Usage:
