@@ -16,27 +16,27 @@ To use the script, navigate to the directory where you want to run the cleanup a
 
 - **Run All Checks**:
   ```bash
-  ~/cleanup.sh ./ --all
+  cleanup.sh ./ --all
   ```
 
 - **Delete Files with the word "Screenshot"**:
   ```bash
-  ~/cleanup.sh ./ --name "Screenshot" 
+  cleanup.sh ./ --name "Screenshot" 
   ```
 
 - **Delete folders with the same name as a .zip file**:
   ```bash
-  ~/cleanup.sh ./ --zip 
+  cleanup.sh ./ --zip 
   ```
 
 - **Delete files of a specific filetype (e.g., png)**:
   ```bash
-  ~/cleanup.sh ./ --filetype "png"
+  cleanup.sh ./ --filetype "png"
   ```
 
 - **Delete `node_modules` directories**:
   ```bash
-  ~/cleanup.sh ./ --node_modules
+  cleanup.sh ./ --node_modules
   ```
 
 **Note**: Always ensure to backup important data and test the script in a safe environment before using it on critical folders. This script does not send items to the Trash, rather it deletes them permanently.
