@@ -36,7 +36,7 @@ while [[ "$#" -gt 0 ]]; do
             delete_zip_folders "$DIR"
             delete_folder_by_name "$DIR" "node_modules"
             ;;
-        --name=*)
+        --fileName=*)
             NAME="${1#*=}"
             delete_files_with_name "$DIR" "$NAME"
             ;;
