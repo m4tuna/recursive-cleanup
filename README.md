@@ -2,6 +2,8 @@
 
 A flexible cleanup script to delete specific files or folders recursively based on given criteria. 🗑️
 
+**Note**: Always ensure to backup important data and test the script in a safe environment before using it on critical folders. This script does not send items to the Trash, rather it deletes them permanently.
+
 ## Requirements:
 
 - **Operating System**: macOS or a Unix-like system.
@@ -39,5 +41,3 @@ To use the script, navigate to the directory where you want to run the cleanup a
   ```bash
   cleanup.sh ./ --filetype=png
   ```
-
-**Note**: Always ensure to backup important data and test the script in a safe environment before using it on critical folders. This script does not send items to the Trash, rather it deletes them permanently.
