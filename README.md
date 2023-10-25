@@ -14,7 +14,10 @@ A flexible cleanup script to delete specific files or folders recursively based 
 
 To use the script, navigate to the directory where you want to run the cleanup and execute the following commands based on your needs.
 
-- **Run All Checks**:
+- **Run All Default Checks**:
+  1. Delete directories named node_modules
+  2. Delete files with the word "Screenshot" in their name
+  3. Delete folders with the same name as a .zip file
   ```bash
   cleanup.sh ./ --all
   ```
